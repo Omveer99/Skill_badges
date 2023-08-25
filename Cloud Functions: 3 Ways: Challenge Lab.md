@@ -1,7 +1,6 @@
 # Run in Cloud Shell
 
 ```bash
-Basic command:-
 
 
 gcloud services enable \
@@ -20,7 +19,6 @@ export REGION=
 
 
 
-command 1:-
 PROJECT_NUMBER=$(gcloud projects list --filter="project_id:$DEVSHELL_PROJECT_ID" --format='value(project_number)')
 SERVICE_ACCOUNT=$(gsutil kms serviceaccount -p $PROJECT_NUMBER)
 gcloud projects add-iam-policy-binding $DEVSHELL_PROJECT_ID \
@@ -64,7 +62,7 @@ gcloud functions deploy $FUNCTION_NAME \
 
 
 
-command 2:- 
+ 
 cd ..
 
 mkdir ~/HTTP_FUNCTION && cd $_
