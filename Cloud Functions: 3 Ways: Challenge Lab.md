@@ -14,7 +14,7 @@ gcloud services enable \
   pubsub.googleapis.com
 
 
-export HTTP_FUNCTION=http-dispatcher
+export HTTP_FUNCTION=
 export FUNCTION_NAME=
 export REGION=
 
