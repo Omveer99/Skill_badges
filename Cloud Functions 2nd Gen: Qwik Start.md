@@ -113,7 +113,7 @@ gcloud functions deploy nodejs-storage-function \
 
 ## Command 3: 
 
-```bash
+
 
 Follow the Steps in video :
 1- From the Navigation Menu, go to IAM & Admin > Audit Logs
@@ -121,7 +121,7 @@ Follow the Steps in video :
 2- Find the Compute Engine API and click the check box next to it.
 
 3- On the info pane on the right, check Admin Read, Data Read, and Data Write log types and click Save.
-```
+
 ## Command 4:
 ```bash
 gcloud projects add-iam-policy-binding $PROJECT_ID \
